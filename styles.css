@@ -1,0 +1,302 @@
+/* INCLUDING GLOBAL RESETS FOR BROWSERS JUST IN CASE WE EVER HAD A DISPLAY ISSUE */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  background-color: #757373;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  width: 100%;
+}
+
+.nav_wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #f7f0f0;
+  width: 100%;
+  height: 35px;
+}
+nav {
+  text-decoration: none;
+  padding-bottom: 0.5%;
+}
+
+a {
+  color: #2e2e2e;
+  text-decoration: none;
+  font-weight: bold;
+}
+.buffer-link {
+  margin-right: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.logo-box {
+  border: 1px solid #dadada;
+  padding: 10px;
+  width: 15%;
+  height: 50px;
+  background-color: #f7f0f0;
+  position: absolute;
+  top: 0;
+  right: 40%;
+  -webkit-box-shadow: 3px 1px 4px 1px rgb(160, 160, 160); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 1px 4px 1px rgb(160, 160, 160); /* Firefox 3.5 - 3.6 */
+  box-shadow: 1px 2px 4px 0.25px rgb(97, 97, 97); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.hero-banner {
+  justify-content: center;
+  height: 80vh;
+  background: url("./src/hero-background-interior.jpg") no-repeat center center;
+}
+.hero-wrap {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 5%;
+}
+.hero-img {
+  width: 40%;
+  position: relative;
+}
+.hero-txt {
+  width: 30%;
+  position: absolute;
+  top: 35%;
+}
+
+.wood-grain {
+  height: 70vh;
+  background: url("./src/wood-divider.png") no-repeat;
+  background-size: cover;
+}
+
+.black-wood {
+  height: 100%;
+  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg");
+}
+
+.menu-item-img {
+  width: 33%;
+}
+
+.lower-header {
+  padding-top: 2%;
+  padding-left: 10%;
+}
+
+.lower-header h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.card-container {
+  display: flex;
+}
+
+.menu-card {
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  display: flex;
+}
+
+.menu-item-img-wrap {
+  width: 100%;
+}
+.menu-item-img {
+  width: 80%;
+}
+
+.menu-card-txt {
+  width: 100%;
+  color: white;
+}
+.top-txt {
+  border-bottom: 1px solid white;
+  width: 90%;
+}
+
+.top-txt h3 {
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+.bottom-txt {
+  line-height: 1.1rem;
+}
+.bottom-txt h4 {
+  color: rgb(255, 209, 169);
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+}
+.bottom-txt .color-txt {
+  color: rgb(255, 209, 169);
+  margin-bottom: 0.6rem;
+}
+
+.menu-cta-container {
+  margin-top: 5%;
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.cta-img-wrap {
+  width: 20%;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 50%;
+}
+
+.see-menu-button {
+  width: 500px;
+  height: 100px;
+  font-size: 2rem;
+  background-color: #b5161c;
+  border: none;
+  color: white;
+  justify-content: center;
+}
+
+.footer-container {
+  height: 600px;
+  background-color: white;
+}
