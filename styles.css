@@ -128,6 +128,7 @@ table {
   background-color: #757373;
   font-family: "Open Sans", sans-serif;
   position: relative;
+
   width: 100%;
 }
 
@@ -137,7 +138,7 @@ table {
   align-items: flex-end;
   background-color: #f7f0f0;
   width: 100%;
-  height: 35px;
+  height: 10vh;
 }
 nav {
   text-decoration: none;
@@ -148,23 +149,25 @@ a {
   color: #2e2e2e;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 .buffer-link {
   margin-right: 10px;
 }
 
-img {
+.logo {
   width: 100%;
+  margin: auto auto;
 }
 
 .logo-box {
   border: 1px solid #dadada;
   padding: 10px;
-  width: 15%;
-  height: 50px;
+  width: 16%;
+  height: 3%;
   background-color: #f7f0f0;
   position: absolute;
-  top: 0;
+  top: 0%;
   right: 40%;
   -webkit-box-shadow: 3px 1px 4px 1px rgb(160, 160, 160); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 3px 1px 4px 1px rgb(160, 160, 160); /* Firefox 3.5 - 3.6 */
@@ -183,22 +186,24 @@ img {
   align-items: center;
   width: 100%;
   padding-top: 2%;
-  padding-left: 5%;
 }
 .hero-img {
-  width: 40%;
-  position: relative;
+  margin-top: 2%;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-txt {
-  width: 30%;
-  position: absolute;
-  top: 35%;
+  width: 68%;
+  margin-top: -550px;
 }
 
 .wood-grain {
-  height: 70vh;
+  height: 40vh;
   background: url("./src/wood-divider.png") no-repeat;
   background-size: cover;
+  margin-top: -110px;
+  margin-bottom: -80px;
 }
 
 .black-wood {
@@ -269,34 +274,91 @@ img {
 
 .menu-cta-container {
   margin-top: 5%;
-
   display: flex;
   width: 100%;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
 }
 
 .cta-img-wrap {
-  width: 20%;
+  width: 49%;
+}
+.noodle-bowl {
+  width: 90%;
 }
 
 .button-wrap {
   display: flex;
   justify-content: center;
   align-self: center;
-  width: 50%;
+  width: 49%;
 }
 
 .see-menu-button {
-  width: 500px;
-  height: 100px;
+  width: 450px;
+  height: 125px;
   font-size: 2rem;
   background-color: #b5161c;
   border: none;
   color: white;
   justify-content: center;
+  background-image: linear-gradient(#b5161c, #292626);
 }
 
-.footer-container {
-  height: 600px;
+.map-container {
+  padding-bottom: 2%;
+  height: 100%;
+  width: 100%;
   background-color: white;
+  display: flex;
+}
+
+.address-wrapper {
+  width: 49%;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.address-wrapper h3 {
+  padding-top: 20%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.address-wrapper p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+address {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.google-map {
+  padding: 5% 0;
+  width: 40%;
+}
+
+.footer-background-container {
+  display: flex;
+  justify-content: flex-end;
+  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg");
+  width: 100%;
+}
+
+.footer-background-container h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.share-wrap {
+  padding-right: 1%;
+}
+
+.icon-wrap img {
+  width: 50%;
+  padding: 2%;
+  margin-top: 5%;
 }
