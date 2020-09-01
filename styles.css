@@ -138,11 +138,12 @@ table {
   align-items: flex-end;
   background-color: #f7f0f0;
   width: 100%;
-  height: 100px;
+  height: 50px;
 }
 nav {
   text-decoration: none;
   padding-bottom: 0.5%;
+  margin-right: 5%;
 }
 
 a {
@@ -150,9 +151,6 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
-}
-.buffer-link {
-  margin-right: 10px;
 }
 
 .logo {
@@ -203,7 +201,7 @@ a {
   background: url("./src/wood-divider.png") no-repeat;
   background-size: cover;
   margin-top: -110px;
-  margin-bottom: -80px;
+  margin-bottom: -50px;
 }
 
 .black-wood {
@@ -216,17 +214,18 @@ a {
 }
 
 .lower-header {
-  padding-top: 2%;
-  padding-left: 10%;
+  padding-top: 3%;
+  margin-left: 15%;
 }
 
 .lower-header h2 {
   color: white;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .card-container {
   display: flex;
+  margin: 0 5%;
 }
 
 .menu-card {
@@ -282,10 +281,7 @@ a {
 }
 
 .cta-img-wrap {
-  width: 49%;
-}
-.noodle-bowl {
-  width: 90%;
+  margin-left: 5%;
 }
 
 .button-wrap {
@@ -315,9 +311,10 @@ a {
 }
 
 .address-wrapper {
-  width: 49%;
+  width: 50%;
   line-height: 3rem;
   text-align: center;
+  margin-left: 5%;
 }
 
 .address-wrapper h3 {
@@ -338,18 +335,22 @@ address {
 
 .google-map {
   padding: 5% 0;
-  width: 40%;
+  width: 50%;
 }
 
 .footer-background-container {
   display: flex;
   justify-content: flex-end;
-  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg");
+
   width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  margin-right: 5%;
 }
 
 .footer-background-container h3 {
-  color: white;
+  color: rgb(65, 64, 64);
   font-weight: bold;
   font-size: 2rem;
 }
@@ -358,7 +359,18 @@ address {
 }
 
 .icon-wrap img {
-  width: 50%;
+  width: 30%;
   padding: 2%;
   margin-top: 5%;
+}
+.decorative-footer {
+  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg");
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.decorative-footer p {
+  padding: 15px;
 }
