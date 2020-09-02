@@ -152,8 +152,19 @@ a {
   font-weight: 500;
   font-size: 1.2rem;
 }
+
+a:hover {
+  color: #b5161c;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
 .buffer-link {
   font-weight: 900;
+}
+.buffer-link:hover {
+  color: #23a702;
+  font-size: 1.8rem;
 }
 
 .logo {
@@ -191,7 +202,7 @@ a {
 .hero-img {
   margin-top: 2%;
 
-  margin-left: auto;
+  margin-left: 33.25%;
   margin-right: auto;
 }
 .hero-txt {
@@ -204,7 +215,7 @@ a {
   background: url("./src/wood-divider.png") no-repeat;
   background-size: cover;
   margin-top: -110px;
-  margin-bottom: -50px;
+  margin-bottom: -49px;
 }
 
 .black-wood {
@@ -217,14 +228,18 @@ a {
 }
 
 .lower-header {
-  padding-top: 3%;
+  padding-top: 2%;
   margin-left: 15%;
+  width: 375px;
+  text-align: center;
 }
 
-.lower-header h2 {
-  color: white;
-  font-weight: bold;
+.lower-header h1 {
+  color: rgb(53, 53, 53);
+  background-color: white;
+  font-family: "Bangers", cursive;
   font-size: 2.5rem;
+  padding: 3% 0;
 }
 .card-container {
   display: flex;
@@ -297,12 +312,19 @@ a {
 .see-menu-button {
   width: 450px;
   height: 125px;
+  font-weight: 800;
   font-size: 2rem;
   background-color: #b5161c;
   border: none;
   color: white;
   justify-content: center;
   background-image: linear-gradient(#b5161c, #292626);
+  font-family: "Open Sans", sans-serif;
+}
+
+.see-menu-button:hover {
+  background-color: #23a702;
+  background-image: linear-gradient(#23a702, #292626);
 }
 
 .map-container {
