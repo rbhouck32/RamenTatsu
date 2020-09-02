@@ -170,13 +170,14 @@ a:hover {
 .logo {
   width: 100%;
   margin: auto auto;
+  padding: 0 1%;
 }
 
 .logo-box {
   border: 1px solid #dadada;
   padding: 10px;
   width: 16%;
-  height: 3%;
+  height: 2%;
   background-color: #f7f0f0;
   position: absolute;
   top: 0%;
@@ -201,8 +202,7 @@ a:hover {
 }
 .hero-img {
   margin-top: 2%;
-
-  margin-left: 33.25%;
+  margin-left: 27.2%;
   margin-right: auto;
 }
 .hero-txt {
@@ -237,7 +237,7 @@ a:hover {
 .lower-header h1 {
   color: rgb(53, 53, 53);
   background-color: white;
-  font-family: "Bangers", cursive;
+  font-family: "", "Bangers", cursive;
   font-size: 2.5rem;
   padding: 3% 0;
 }
@@ -300,6 +300,9 @@ a:hover {
 
 .cta-img-wrap {
   margin-left: 5%;
+}
+.cta-img-wrap img {
+  width: 90%;
 }
 
 .button-wrap {
@@ -381,15 +384,22 @@ address {
 }
 
 .share-wrap {
-  width: 10%;
+  width: 110px;
+  padding-right: 10px;
+  padding-top: 5px;
 }
 .share-wrap img {
   padding-top: 5%;
-  width: 60%;
+  width: 100%;
+}
+
+.icon-wrap {
+  padding-right: 20px;
+  padding-top: 5px;
 }
 
 .icon-wrap img {
-  width: 50%;
+  width: 30px;
   padding: 2%;
   margin-top: 5%;
 }
