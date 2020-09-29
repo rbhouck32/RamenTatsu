@@ -225,11 +225,9 @@ a:hover {
 }
 
 .black-wood {
-  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg")
-    repeat;
-  height: 100%;
-  width: 100%;
-  background-position: center;
+  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg") repeat;
+  background-size: cover;
+
 }
 
 .menu-item-img {
@@ -251,17 +249,26 @@ a:hover {
   font-size: 2rem;
   padding: 10px 10px;
 }
+
+
 .card-container {
   display: flex;
-  margin: 0 5%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 5% 0 5%;
+  flex-wrap: wrap;
 }
 
 .menu-card {
-  margin-top: 5%;
-  margin-right: auto;
-  margin-left: auto;
-  width: 18%;
-}
+    min-width: 200px;
+    flex: 1 0 100%; /* explanation below */
+    margin: 15px 15px 30px 15px;
+    max-width: 20%;
+  }
+
+
+
+
 
 .menu-item-img-wrap {
   width: 100%;
@@ -610,4 +617,61 @@ address {
     margin-right: auto;
     padding: 5px;
   }
+}
+/* media display size */
+
+@media (min-width: 2000px) {
+  /* Selectors and styles affecting screens UP TO 979px (Desktop) */
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 8% 0 8%;
+  }
+
+  .menu-card {
+    min-width: 200px;
+    flex: 1 0 18%; /* explanation below */
+    margin: 15px 15px 30px 15px;
+    max-width: 20%;
+  }
+
+}
+
+
+@media (min-width: 1800px) {
+    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 60px 7% 0 7%;
+    }
+
+    .menu-card {
+      min-width: 200px;
+      flex: 1 0 18%; /* explanation below */
+      margin: 15px 15px 30px 15px;
+      max-width: 25%;
+    }
+}
+
+@media (max-width: 1300px) {
+    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 60px 6% 0 6%;
+    }
+
+    .menu-card {
+      min-width: 200px;
+      flex: 1 0 18%; /* explanation below */
+      margin: 15px 15px 30px 15px;
+      max-width: 33%;
+    }
+}
 }
