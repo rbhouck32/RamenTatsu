@@ -140,6 +140,10 @@ table {
   width: 100%;
   height: 50px;
 }
+
+.mobile-logo {
+  visibility: hidden;
+}
 nav {
   text-decoration: none;
   padding: 15px 15px 15px 0;
@@ -432,6 +436,20 @@ address {
 // all rules outside of @media queries apply to devices 1201px and above
 ... */
 
+@media (max-width: 1452px) {
+  .logo-box {
+    position: relative;
+    margin: -50px 0 0 0px;
+    padding: 25px;
+    width: 225px;
+    background-color: #f7f0f0;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
+  }
+
+}
+
 @media (max-width: 1200px) {
   .hero-banner {
     height: 280px;
@@ -474,21 +492,7 @@ address {
 }
 
 @media (max-width: 992px) {
-  .logo {
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .logo-box {
-    position: relative;
-    margin: -50px auto 0 auto;
-    padding: 25px;
-    width: 225px;
-    background-color: #f7f0f0;
-    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
-  }
+  
   .hero-banner {
     height: 260px;
   }
@@ -512,22 +516,37 @@ address {
   }
 }
 
-@media (max-width: 890px) {
+
+@media (max-width: 814px) {
+  .nav_wrap {
+    text-align: center;
+  }
+  .nav-bar {
+    
+    width: 100%;
+    height: 30px;
+    background-color: white;
+  }
+
+  .nav-bar a {
+    padding: 0 5px;
+  }
+  
   .logo-box {
-    position: relative;
-    margin: -50px 0 0 0px;
-    padding: 25px;
-    width: 225px;
+    display: none;
+    /* position: relative;
+    margin: -65px 0 0 0;
+    padding: 10px;
+    width: 40%;
+    height: 100px;
     background-color: #f7f0f0;
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35); */
   }
-}
-@media (max-width: 768px) {
-  .logo {
-    width: 100%;
-    margin: 0 auto;
+  .mobile-logo {
+    visibility: visible;
+    width: 5%;
   }
 
   .hero-banner {
@@ -593,26 +612,7 @@ address {
 }
 
 @media (max-width: 650px) {
-  .nav_wrap {
-    text-align: center;
-  }
-  .nav-bar {
-    width: 100%;
-    height: 25px;
-    background-color: white;
-  }
-  .logo-box {
-    display: none;
-    /* position: relative;
-    margin: -65px 0 0 0;
-    padding: 10px;
-    width: 40%;
-    height: 100px;
-    background-color: #f7f0f0;
-    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35); */
-  }
+ 
 
   .hero-img {
     margin-top: 10%;
@@ -622,7 +622,7 @@ address {
     height: 230px;
   }
   .lower-header {
-    padding-top: 5%;
+    padding-top: 0%;
   }
 
   .menu-card {
@@ -738,4 +738,34 @@ address {
   .see-menu-button {
     width: 100%;
   }
+
+  .address-wrapper {
+    width: 80%;
+    line-height: 2.0rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .address-wrapper h3 {
+    padding-top: 8%;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .address-wrapper p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  address {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .google-map {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 }
