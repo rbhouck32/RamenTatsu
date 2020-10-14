@@ -142,12 +142,14 @@ table {
 }
 
 .mobile-logo {
+  display: none;
   visibility: hidden;
 }
 nav {
   text-decoration: none;
   padding: 15px 15px 15px 0;
 }
+ 
 
 a {
   color: #2e2e2e;
@@ -441,7 +443,7 @@ address {
     position: relative;
     margin: -50px 0 0 0px;
     padding: 25px;
-    width: 225px;
+    
     background-color: #f7f0f0;
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
@@ -517,7 +519,7 @@ address {
 }
 
 
-@media (max-width: 814px) {
+@media (max-width: 840px) {
   .nav_wrap {
     text-align: center;
   }
