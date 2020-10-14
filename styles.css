@@ -142,7 +142,9 @@ table {
 }
 
 .mobile-logo {
+
   display: none;
+
 }
 nav {
   text-decoration: none;
@@ -185,7 +187,9 @@ a:hover {
   margin: -50px auto 0 auto;
   padding: 25px;
   width: 266px;
+
   background-color: #ffffff;
+
   -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
   box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
@@ -231,7 +235,9 @@ a:hover {
 .black-wood {
   background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg")
     repeat;
+
   background-size: contain;
+
 }
 
 .menu-item-img {
@@ -441,7 +447,9 @@ address {
     position: relative;
     margin: -50px 0 0 0px;
     padding: 25px;
+
     background-color: #ffffff;
+
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
@@ -538,7 +546,9 @@ address {
     padding: 10px;
     width: 40%;
     height: 100px;
+
     background-color: #ffffff;
+
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35); */
@@ -557,7 +567,9 @@ address {
   }
 
   .lower-header {
+
     padding-top: 30px;
+
     margin-left: auto;
     margin-right: auto;
   }
@@ -622,7 +634,9 @@ address {
     height: 230px;
   }
   .lower-header {
+
     padding-top: 30px;
+
   }
 
   .menu-card {
@@ -682,7 +696,9 @@ address {
     padding: 10px;
     width: 40%;
     height: 100px;
+
     background-color: #ffffff;
+
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35); */
@@ -696,7 +712,11 @@ address {
     height: 250px;
   }
   .lower-header {
+
     padding-top: 30px;
+
+    width: 100%;
+
   }
 
   .menu-card {
