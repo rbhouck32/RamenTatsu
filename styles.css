@@ -142,9 +142,7 @@ table {
 }
 
 .mobile-logo {
-
   display: none;
-
 }
 nav {
   text-decoration: none;
@@ -237,7 +235,6 @@ a:hover {
     repeat;
 
   background-size: contain;
-
 }
 
 .menu-item-img {
@@ -308,6 +305,69 @@ a:hover {
 .bottom-txt .color-txt {
   color: rgb(255, 209, 169);
   margin-bottom: 0.6rem;
+}
+
+.spice-level-addons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 5% 2.5% 5%;
+}
+
+.spice-level-card {
+  width: 50%;
+}
+.add-on-card {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-on-top {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.white-box {
+  background-color: #ffffff;
+  display: flex;
+}
+.left {
+  display: flex;
+  width: 50%;
+  padding: 2% 0;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
+.col-name {
+  width: 85%;
+}
+/* .col-price {
+  width: 20%;
+} */
+.col-name h3 {
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.right {
+  display: flex;
+  width: 50%;
+  padding: 2% 0;
+  padding-left: 5%;
+  line-height: 1.5;
+}
+
+.add-on-top h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.add-on-bottom {
+  display: flex;
+  border: 3px solid #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: none;
+  color: white;
 }
 
 .menu-cta-container {
@@ -454,7 +514,6 @@ address {
     -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
   }
-
 }
 
 @media (max-width: 1200px) {
@@ -499,7 +558,6 @@ address {
 }
 
 @media (max-width: 992px) {
-  
   .hero-banner {
     height: 260px;
   }
@@ -523,13 +581,11 @@ address {
   }
 }
 
-
-@media (max-width: 814px) {
+@media (max-width: 840px) {
   .nav_wrap {
     text-align: center;
   }
   .nav-bar {
-    
     width: 100%;
     height: 30px;
     background-color: white;
@@ -538,7 +594,7 @@ address {
   .nav-bar a {
     padding: 0 5px;
   }
-  
+
   .logo-box {
     display: none;
     /* position: relative;
@@ -567,7 +623,6 @@ address {
   }
 
   .lower-header {
-
     padding-top: 30px;
 
     margin-left: auto;
@@ -624,8 +679,6 @@ address {
 }
 
 @media (max-width: 650px) {
- 
-
   .hero-img {
     margin-top: 10%;
     width: 80%;
@@ -634,9 +687,7 @@ address {
     height: 230px;
   }
   .lower-header {
-
     padding-top: 30px;
-
   }
 
   .menu-card {
@@ -712,11 +763,9 @@ address {
     height: 250px;
   }
   .lower-header {
-
     padding-top: 30px;
 
     width: 100%;
-
   }
 
   .menu-card {
@@ -761,7 +810,7 @@ address {
 
   .address-wrapper {
     width: 80%;
-    line-height: 2.0rem;
+    line-height: 2rem;
     margin-right: auto;
     margin-left: auto;
   }
@@ -786,6 +835,4 @@ address {
     margin-right: auto;
     margin-left: auto;
   }
-}
-
 }
