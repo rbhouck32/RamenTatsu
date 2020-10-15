@@ -271,6 +271,10 @@ a:hover {
   margin-left: auto;
   width: 18%;
 }
+
+.second-row {
+  width: 15%;
+}
 .menu-item-img-wrap {
   width: 100%;
   padding-bottom: 1%;
@@ -305,6 +309,15 @@ a:hover {
 .bottom-txt .color-txt {
   color: rgb(255, 209, 169);
   margin-bottom: 0.6rem;
+}
+.starters-imageless {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+}
+
+.starters-imageless .menu-card {
+  width: 50%;
 }
 
 .spice-level-addons {
@@ -367,15 +380,35 @@ a:hover {
   border-top: none;
   color: white;
 }
-.beverages-card {
-  padding: 2% 5% 2.5% 5%;
+
+.lower-header-flex-left {
+  padding-top: 2%;
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+.lower-header-flex-right {
+  padding-bottom: 5%;
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  flex-direction: column;
+}
+
+.beverages-card-left {
+  padding-top: 2%;
+}
+.beverages-card-right {
+  padding-top: 2%;
 }
 
 .beverages {
   display: flex;
   border: 3px solid #ffffff;
   background: rgba(0, 0, 0, 0.3);
-  width: 50%;
+  width: 100%;
   color: white;
 }
 
@@ -689,6 +722,41 @@ address {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .spice-level-addons {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    padding: 5% 5% 2.5% 5%;
+  }
+
+  .add-on-card {
+    width: 90%;
+  }
+
+  .spice-level-card {
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    width: 100%;
+  }
+  .starters-imageless {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-name {
+    width: 80%;
+  }
+
+  .col-name h3 {
+    font-weight: bolder;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 650px) {
@@ -741,6 +809,19 @@ address {
 
   .see-menu-button {
     width: 100%;
+  }
+  .col-name {
+    width: 80%;
+  }
+
+  .col-name h3 {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    padding-right: 1%;
+  }
+
+  .col-price p {
+    font-size: 0.8rem;
   }
 }
 
@@ -847,5 +928,10 @@ address {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .spice-level-card .menu-card-img-wrap {
+    width: 100%;
+    padding-left: 5%;
   }
 }
