@@ -342,9 +342,7 @@ a:hover {
 .col-name {
   width: 85%;
 }
-/* .col-price {
-  width: 20%;
-} */
+
 .col-name h3 {
   font-weight: bolder;
   font-size: 1.1rem;
@@ -368,6 +366,21 @@ a:hover {
   background: rgba(0, 0, 0, 0.3);
   border-top: none;
   color: white;
+}
+.beverages-card {
+  padding: 2% 5% 2.5% 5%;
+}
+
+.beverages {
+  display: flex;
+  border: 3px solid #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+  width: 50%;
+  color: white;
+}
+
+.details {
+  font-weight: 500;
 }
 
 .menu-cta-container {
