@@ -271,6 +271,10 @@ a:hover {
   margin-left: auto;
   width: 18%;
 }
+
+.second-row {
+  width: 15%;
+}
 .menu-item-img-wrap {
   width: 100%;
   padding-bottom: 1%;
@@ -305,6 +309,15 @@ a:hover {
 .bottom-txt .color-txt {
   color: rgb(255, 209, 169);
   margin-bottom: 0.6rem;
+}
+.starters-imageless {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+}
+
+.starters-imageless .menu-card {
+  width: 50%;
 }
 
 .spice-level-addons {
@@ -367,15 +380,25 @@ a:hover {
   border-top: none;
   color: white;
 }
+
+.lower-header-flex {
+  display: flex;
+}
+.beverage-card-flex-wrap {
+  display: flex;
+  padding: 5% 5% 2.5% 5%;
+}
 .beverages-card {
-  padding: 2% 5% 2.5% 5%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .beverages {
   display: flex;
   border: 3px solid #ffffff;
   background: rgba(0, 0, 0, 0.3);
-  width: 50%;
+  width: 100%;
   color: white;
 }
 
