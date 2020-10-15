@@ -381,17 +381,27 @@ a:hover {
   color: white;
 }
 
-.lower-header-flex {
+.lower-header-flex-left {
+  padding-top: 2%;
   display: flex;
-}
-.beverage-card-flex-wrap {
-  display: flex;
-  padding: 5% 5% 2.5% 5%;
-}
-.beverages-card {
-  width: 40%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  flex-direction: column;
+}
+.lower-header-flex-right {
+  padding-bottom: 5%;
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  flex-direction: column;
+}
+
+.beverages-card-left {
+  padding-top: 2%;
+}
+.beverages-card-right {
+  padding-top: 2%;
 }
 
 .beverages {
@@ -738,6 +748,15 @@ address {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .col-name {
+    width: 80%;
+  }
+
+  .col-name h3 {
+    font-weight: bolder;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 650px) {
@@ -790,6 +809,19 @@ address {
 
   .see-menu-button {
     width: 100%;
+  }
+  .col-name {
+    width: 80%;
+  }
+
+  .col-name h3 {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    padding-right: 1%;
+  }
+
+  .col-price p {
+    font-size: 0.8rem;
   }
 }
 
