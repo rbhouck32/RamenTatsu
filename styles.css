@@ -1014,6 +1014,9 @@ address {
   .white-box {
     width: 100%;
   }
+  .beverages {
+    box-sizing: border-box;
+  }
 
   .beverages-card-right {
     width: 100%;
@@ -1023,5 +1026,9 @@ address {
   .beverages-card-left {
     width: 100%;
     padding-top: 0;
+  }
+
+  .col-price {
+    padding: 0%;
   }
 }
