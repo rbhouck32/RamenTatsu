@@ -37,45 +37,53 @@
     <section class="photo-banner">
       <div class="banner-wrap">
         <div class="hero-banner">
-          <div class="button-gallery">
-            <a href="#">
-              <div class="anchor-button">
-                <h2>R A M E N</h2>
-              </div>
-            </a>
-            <a href="#">
-              <div class="anchor-button">
-                <h2>S T A R T E R S</h2>
-              </div>
-            </a>
-            <a href="#">
-              <div class="anchor-button">
-                <h2>R I C E & B O W L S</h2>
-              </div>
-            </a>
-            <a href="#">
-              <div class="anchor-button">
-                <h2>D E S S E R T S</h2>
-              </div>
-            </a>
-            <a href="#">
-              <div class="anchor-button">
-                <h2>B E V E R A G E S</h2>
-              </div>
-            </a>
-            <a href="#">
-              <div class="anchor-button">
-                <h2>A L C O H O L</h2>
-              </div>
-            </a>
+          <div id="sticky-nav" class="button-gallery">
+                <div class="left-buttons">
+                  <a href="#Ramen">
+                    <div class="anchor-button">
+                      <h2>R A M E N</h2>
+                    </div>
+                  </a>
+                  <a href="#Starters">
+                    <div class="anchor-button">
+                      <h2>S T A R T E R S</h2>
+                    </div>
+                  </a>
+                </div>
+                <div class= "middle-buttons">
+                  <a href="#RiceBowls">
+                    <div class="anchor-button">
+                      <h2>R I C E & B O W L S</h2>
+                    </div>
+                </a>
+                  <a href="#Desserts">
+                    <div class="anchor-button">
+                      <h2>D E S S E R T S</h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="right-buttons">
+                  <a href="#Beverages">
+                    <div class="anchor-button">
+                      <h2>B E V E R A G E S</h2>
+                    </div>
+                  </a>
+                  <a href="#Alcohol">
+                    <div class="anchor-button">
+                      <h2>A L C O H O L</h2>
+                    </div>
+                  </a>
+                </div>
+                <!-- <a class="back-to-top" href="#top">Back to Top</a> -->
           </div>
         </div>
         <div class="wood-grain" src="./src/wood-divider.png"></div>
       </div>
+      
     </section>
     <section class="lower-content">
       <div class="black-wood">
-        <div class="lower-header"><h1>R A M E N</h1></div>
+        <div class="lower-header"><h1 id="Ramen">R A M E N</h1></div>
         <div class="card-container">
           <div class="menu-card">
             <div class="menu-card-img-wrap">
@@ -497,7 +505,7 @@
           </div>
         </section>
 
-        <div class="lower-header"><h1>S T A R T E R S</h1></div>
+        <div class="lower-header"><h1 id="Starters">S T A R T E R S</h1></div>
 
         <div class="card-container">
           <div class="menu-card">
@@ -705,7 +713,7 @@
           </section>
         </div>
 
-        <div class="lower-header"><h1>R I C E & B O W L S</h1></div>
+        <div class="lower-header"><h1 id="RiceBowls">R I C E & B O W L S</h1></div>
         <div class="card-container">
           <div class="menu-card">
             <div class="menu-card-img-wrap">
@@ -861,7 +869,7 @@
           </section>
         </div>
         <div class="lower-header-flex-left">
-        <div class="lower-header"><h1>D E S S E R T S</h1></div>
+        <div class="lower-header"><h1 id="Desserts">D E S S E R T S</h1></div>
         <div class="card-container">
           <div class="menu-card">
             <div class="menu-card-img-wrap"></div>
@@ -910,7 +918,7 @@
       </div>
         <section class="beverage-alcohol-flex-wrap">
           <div class="lower-header-flex-left">
-            <div class="lower-header"><h1>B E V E R A G E S</h1></div>
+            <div class="lower-header"><h1 id="Beverages">B E V E R A G E S</h1></div>
             <div class="beverages-card-left">
               <div class="beverages">
                 <div class="left">
@@ -971,7 +979,7 @@
             </div>
           </div>
           <div class="lower-header-flex-right">
-            <div class="lower-header"><h1>A L C O H O L</h1></div>
+            <div class="lower-header"><h1 id="Alcohol">A L C O H O L</h1></div>
             <div class="beverages-card-right">
               <div class="beverages">
                 <div class="left">
@@ -1118,5 +1126,24 @@
         <p>&#169; Copyright 2020 MindState</p>
       </div>
     </footer>
+    <script>// When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+      
+      // Get the navbar
+      var navbar = document.getElementById("sticky-nav");
+      
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+      
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
   </body>
+
 </html>
