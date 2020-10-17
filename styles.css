@@ -221,15 +221,35 @@ a:hover {
 }
 .button-gallery {
   display: flex;
+  height: 335px;
   justify-content: space-evenly;
-  align-self: flex-end;
-  padding-top: 200px;
+  align-items: flex-end;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
 .anchor-button {
   color: white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+}
+.anchor-button:hover {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-decoration: underline wavy firebrick;
+}
+.back-to-top {
+  padding-bottom: 1%;
+  color: rgb(165, 165, 165);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .wood-grain {
