@@ -248,8 +248,21 @@ a:hover {
   position: fixed;
   top: 0;
   width: 100%;
+  align-items: center;
   height: 150px;
   background-color: rgba(0, 0, 0, 0.7);
+}
+.back-to-top {
+  color: firebrick;
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+.sticky p {
+  font-size: 0.75rem;
+}
+.sticky .anchor-button {
+  padding: 0px;
 }
 
 .wood-grain {
