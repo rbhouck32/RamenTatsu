@@ -196,7 +196,7 @@ a:hover {
 .hero-banner {
   margin: -55px 0 0 0;
   height: 335px;
-  background: url("./src/hero-background-interior.jpg") repeat;
+  background: url("../images/hero-background-interior.jpg") repeat;
   width: 100%;
   background-size: 1325px;
   background-position: center;
@@ -267,7 +267,7 @@ a:hover {
 
 .wood-grain {
   height: 203px;
-  background: url("./src/wood_grain-72.jpg");
+  background: url("../images/wood_grain-72.jpg");
   background-repeat: repeat;
   width: 100%;
   -webkit-box-shadow: 0px 0px 75px 15px rgba(0, 0, 0, 0.75);
@@ -276,7 +276,7 @@ a:hover {
 }
 
 .black-wood {
-  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg")
+  background: url("../images/background-wood-ramen-tatsu-las-vegas-restaurant.jpg")
     repeat;
 
   background-size: contain;
@@ -589,7 +589,7 @@ address {
   margin-top: 5%;
 }
 .decorative-footer {
-  background: url("./src/background-wood-ramen-tatsu-las-vegas-restaurant.jpg");
+  background: url("../images/background-wood-ramen-tatsu-las-vegas-restaurant.jpg");
   width: 100%;
   text-align: center;
   color: #757373;
