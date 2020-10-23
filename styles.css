@@ -244,26 +244,26 @@ a:hover {
   padding-bottom: 1%;
   color: rgb(165, 165, 165);
 }
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   align-items: center;
   height: 150px;
   background-color: rgba(0, 0, 0, 0.7);
-}
+} */
 .back-to-top {
   color: firebrick;
   font-size: 0.75rem;
   text-decoration: underline;
 }
-
+/* 
 .sticky p {
   font-size: 0.75rem;
 }
 .sticky .anchor-button {
   padding: 0px;
-}
+} */
 
 .wood-grain {
   height: 203px;
@@ -855,6 +855,27 @@ address {
   }
   .hero-banner {
     height: 230px;
+  }
+  .sticky {
+    height: 100%;
+  }
+
+  .button-gallery {
+    padding-top: 100px;
+    display: flex;
+    height: 335px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .anchor-button {
+    width: 100%;
+    padding: 0;
+  }
+
+  .anchor-button h2 {
+    font-size: 0.5rem;
   }
   .lower-header {
     padding-top: 30px;
