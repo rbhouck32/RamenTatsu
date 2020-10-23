@@ -498,7 +498,7 @@ a:hover {
 }
 
 .see-menu-button {
-  width: 450px;
+  width: 100%;
   height: 125px;
   font-weight: 800;
   font-size: 2rem;
@@ -856,8 +856,8 @@ address {
   .hero-banner {
     height: 230px;
   }
-  .see-menu-button {
-    width: 500px;
+  .button-wrap {
+    width: 100%;
   }
 
   .button-gallery {
