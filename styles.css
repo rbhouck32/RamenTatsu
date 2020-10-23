@@ -856,8 +856,8 @@ address {
   .hero-banner {
     height: 230px;
   }
-  .sticky {
-    height: 100%;
+  .see-menu-button {
+    width: 100%;
   }
 
   .button-gallery {
